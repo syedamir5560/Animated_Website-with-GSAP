@@ -7,6 +7,9 @@
     --dcyan: #1f2f32;
 }
 
+body{
+    transition: background-color ease-out .5s ;
+}
 
 .vediodiv {
     clip-path: circle(var(--clip) at 50% 50%);
@@ -16,7 +19,7 @@ body[theme="black"] {
     background-color: var(--black);
 }
 
-body[theme="black"] .section , .text ,.capsule , .right{
+body[theme="black"] .section , .text ,.capsules , .right{
     color: var(--white);
     border:var(--white);
 }
