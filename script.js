@@ -100,7 +100,7 @@ function paraAnimation() {
             trigger: ".para",
             start: "top 60%",
             end: "bottom 90%",
-            scrub: 0.1,
+            scrub: 0.2,
 
         },
         opacity: 1,
