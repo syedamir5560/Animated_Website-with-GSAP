@@ -16,8 +16,9 @@ body[theme="black"] {
     background-color: var(--black);
 }
 
-body[theme="black"] .section {
+body[theme="black"] .section , .text ,.capsule , .right{
     color: var(--white);
+    border:var(--white);
 }
 
 /* body[theme="black"]{
