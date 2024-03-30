@@ -56,3 +56,9 @@ body[theme="salmon"] .section {
     background-color: blue;
     transition: all ease 0.9s;
 }
+
+.sbtn:hover{
+    background-color: black;
+    color: var(--cyan);
+    transition: all ease 0.8s;
+}
