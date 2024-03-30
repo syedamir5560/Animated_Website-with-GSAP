@@ -51,3 +51,8 @@ body[theme="salmon"] {
 body[theme="salmon"] .section {
     color: var(--dsalmon)
 }
+
+.listelem:hover{
+    background-color: blue;
+    transition: all ease 0.9s;
+}
